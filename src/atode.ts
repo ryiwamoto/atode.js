@@ -1,6 +1,6 @@
 "use strict";
 
-module Omatase {
+module Atode {
     //=============ECMA Script internal===========
     function assert(condition: boolean, message?: string) {
         if (!condition) {
@@ -491,7 +491,7 @@ declare var module: any;
 declare var global: any;
 (function (global) {
     if ("process" in global) {
-        module["exports"] = Omatase.Promise;
+        module["exports"] = Atode.Promise;
     }
-    global["Promise" in global ? "Promise_" : "Promise"] = Omatase.Promise; // switch module. http://git.io/Minify
+    global["Promise" in global ? "Promise_" : "Promise"] = Atode.Promise; // switch module. http://git.io/Minify
 })((this || 0).self || global); // WebModule idiom. http://git.io/WebModule

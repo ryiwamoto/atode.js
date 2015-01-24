@@ -5,8 +5,8 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var Omatase;
-(function (Omatase) {
+var Atode;
+(function (Atode) {
     //=============ECMA Script internal===========
     function assert(condition, message) {
         if (!condition) {
@@ -404,7 +404,7 @@ var Omatase;
         };
         return Promise;
     })(PromiseInstance);
-    Omatase.Promise = Promise;
+    Atode.Promise = Promise;
     /**
      * 25.4.3.1.1
      * @param promise
@@ -459,10 +459,10 @@ var Omatase;
         }
         return resultCapability.promise;
     }
-})(Omatase || (Omatase = {}));
+})(Atode || (Atode = {}));
 (function (global) {
     if ("process" in global) {
-        module["exports"] = Omatase.Promise;
+        module["exports"] = Atode.Promise;
     }
-    global["Promise" in global ? "Promise_" : "Promise"] = Omatase.Promise; // switch module. http://git.io/Minify
+    global["Promise" in global ? "Promise_" : "Promise"] = Atode.Promise; // switch module. http://git.io/Minify
 })((this || 0).self || global); // WebModule idiom. http://git.io/WebModule
