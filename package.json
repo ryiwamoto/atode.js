@@ -1,0 +1,19 @@
+{
+  "name": "atode.js",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Promise A+ library to study ES6 Promise",
+  "main": "index.js",
+  "devDependencies": {
+    "promises-aplus-tests": "*"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests test/test_adapter.js --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryiwamoto/atode.js.git"
+  },
+  "author": "ryiwamoto<konnpekigan@gmail.com>",
+  "license": "MIT"
+}
